@@ -30,7 +30,7 @@ let not_guilty= []
 
 
 for(let item of people){
-    if(item.wifes.length > 1 && item.age < 18){
+    if(item.wifes.length > 1 && item.age > 18){
         not_guilty.push(item.name)
     }else {
          guilties.push(item.name)
